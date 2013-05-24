@@ -9,10 +9,25 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Wang,Shuxin
+# Theme settings for Jekyll theme by Stephan Florquin.
+theme:
+  # Site name
+  site_name: wangshuxin
+  # Google analytics UID
+  google_analytics_uid: USA_123_12
+  # Disqus shortname, for comments
+  disqus_shortname: wangshuxin
+  # Number of featured posts on homepage
+  homepage_featured: 1
+  # Number of posts on homepage (in addition to featured posts)
+  homepage_posts: 2
+  # Number of words to display in post summaries
+  featured_wordcount: 20
+  
+title : Wang, Shuxin
 tagline: Site Tagline
 author :
-  name : Name Lastname
+  name : shuxin wang
   email : wangshuxin@ict.ac.cn
   github : wangshuxin
   twitter : 
@@ -26,7 +41,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://username.github.io
+production_url : http://wangshuxin.github.io
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -83,7 +98,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : jekyllbootstrap
+      short_name : wangshuxin
     livefyre :
       site_id : 123
     intensedebate :
