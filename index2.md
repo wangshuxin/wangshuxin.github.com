@@ -15,7 +15,7 @@ In `_config.yml` remember to specify your own data:
     
     title : My Blog =)
     
-    author :
+    author : 
       name : Name Lastname
       email : blah@email.test
       github : username
